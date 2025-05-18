@@ -1,16 +1,82 @@
-# welltrack
+# WellTrack – Rastreador de Humor com Flutter
 
-A new Flutter project.
+Aplicativo mobile desenvolvido com Flutter para registrar sentimentos diários, armazenar localmente e visualizar o histórico. Ideal para demonstrar habilidades em desenvolvimento Flutter com boas práticas, arquitetura modular e persistência de dados local.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+* Registro de sentimentos com texto personalizado
+* Salvamento local usando `shared_preferences`
+* Listagem de registros com ordem cronológica reversa
+* Interface responsiva, simples e funcional
+* Estrutura de projeto organizada (screens, services, models)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📈 Capturas de Tela
+
+> (Adicione aqui prints do app rodando no emulador)
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+* [Flutter](https://flutter.dev/) 3.x
+* Dart
+* `shared_preferences`
+* Estrutura em camadas (UI, serviços, armazenamento)
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/SEU_USUARIO/welltrack.git
+   cd welltrack
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Execute o app:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📚 Estrutura do Projeto
+
+```
+lib/
+├── main.dart
+├── screens/
+│   ├── home_screen.dart
+│   └── add_mood_screen.dart
+├── services/
+│   └── mood_storage.dart
+```
+
+---
+
+## 🌟 Autor(a)
+
+Desenvolvido por \[Seu Nome Aqui] – entre em contato no [LinkedIn](https://www.linkedin.com) ou veja mais projetos no [GitHub](https://github.com/SEU_USUARIO).
+
+---
+
+## ✅ Status do Projeto
+
+> MVP funcional completo. Possíveis melhorias futuras:
+>
+> * Gráfico de humor semanal
+> * Sincronização com Firebase
+> * Modo escuro / claro
+
